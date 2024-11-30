@@ -20,7 +20,6 @@ app.post("/signup", async (req, res) => {
       password,
     ]);
 
-    console.log(response);
     res.send("user created");
   } catch {
     res.send("error while signing up");
